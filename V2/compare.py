@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 修改为你本地的 EEG 根目录路径
-eeg_root = r"C:\Users\肖长屹Charlie\Desktop\EFDataset"
+eeg_root = r"DDG"
 
 # # 获取所有手势文件夹名称（0, 1, ..., ok, left, ...）
 # gesture_folders = [name for name in os.listdir(eeg_root) if os.path.isdir(os.path.join(eeg_root, name))]

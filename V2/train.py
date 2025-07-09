@@ -11,7 +11,7 @@ epochs = 20
 learning_rate = 0.001
 
 # 加载数据集
-root_dir = r"C:\Users\肖长屹Charlie\Desktop\EEG_Transform_DB"  
+root_dir = r"DDG"  
 dataset = EEGDataset(root_dir)
 
 # 划分训练集与验证集

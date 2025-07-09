@@ -8,7 +8,7 @@ from model import CNNLSTMClassifier
 batch_size = 32
 
 # 加载数据集（和train.py保持一致）
-root_dir = r"C:\Users\肖长屹Charlie\Desktop\EEG_Transform_DB"  
+root_dir = r"DDG"  
 dataset = EEGDataset(root_dir)
 
 # 划分训练集与验证集（同train.py）
